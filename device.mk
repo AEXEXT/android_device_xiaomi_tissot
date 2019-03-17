@@ -20,6 +20,8 @@ $(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
 
 # Gapps
 GAPPS_VARIANT := nano
+TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
 
 # Include Gapps
 GAPPS_PRODUCT_PACKAGES += \
